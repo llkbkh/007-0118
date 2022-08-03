@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e2848584-feeb-4877-970b-688f6a94a323}</ProjectGuid>
+    <RootNamespace>My007Helper</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\Amber\Project\ACEManage\ACEHelper\AntiCheatEngine;E:\Amber\Project\ACEManage\ACEHelper\AntiCheatEngine\include;E:\RCF\include;E:\Amber\Project\007Manager\007Helper\openssl\win32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Amber\Project\007Manager\007Helper\openssl\win32\lib;E:\Amber\Project\ACEManage\ACEHelper\AntiCheatEngine;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;MY007HELPER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;MY007HELPER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AllowIsolation>true</AllowIsolation>
+      <AdditionalLibraryDirectories>./libs\glfw\lib-vc2010-32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;MY007HELPER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;MY007HELPER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AhnCheat.cpp" />
+    <ClCompile Include="AhnExport.cpp" />
+    <ClCompile Include="AhnProcess.cpp" />
+    <ClCompile Include="CGameMp.cpp" />
+    <ClCompile Include="CLuaScript.cpp" />
+    <ClCompile Include="CMpEntity.cpp" />
+    <ClCompile Include="CSagaClient.cpp" />
+    <ClCompile Include="cSprites.cpp" />
+    <ClCompile Include="csv.c" />
+    <ClCompile Include="DispatchRecv.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="drawimage.cpp" />
+    <ClCompile Include="Drawing.cpp" />
+    <ClCompile Include="EngineMsg.cpp" />
+    <ClCompile Include="ExternalMenu.cpp" />
+    <ClCompile Include="GameAimBot.cpp" />
+    <ClCompile Include="GameBasics.cpp" />
+    <ClCompile Include="GameCFG.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameEsp.cpp" />
+    <ClCompile Include="GameKreedz.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GameOffset.cpp" />
+    <ClCompile Include="GamePack.cpp" />
+    <ClCompile Include="GamePlayer.cpp" />
+    <ClCompile Include="GameScript.cpp" />
+    <ClCompile Include="GameSpeed.cpp" />
+    <ClCompile Include="GameSurvival.cpp" />
+    <ClCompile Include="GameVar.cpp" />
+    <ClCompile Include="GameVXL.cpp" />
+    <ClCompile Include="GameWallHack.cpp" />
+    <ClCompile Include="GameZsht.cpp" />
+    <ClCompile Include="IGameClient.cpp" />
+    <ClCompile Include="IGameEngineMSG.cpp" />
+    <ClCompile Include="QAngle.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RCF007Interface.hpp" />
+    <ClInclude Include="AhnExport.h" />
+    <ClInclude Include="AhnProcess.h" />
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="CGameMp.h" />
+    <ClInclude Include="CheatStruct.h" />
+    <ClInclude Include="CLuaScript.h" />
+    <ClInclude Include="CMpEntity.h" />
+    <ClInclude Include="CSagaClient.h" />
+    <ClInclude Include="cSprites.h" />
+    <ClInclude Include="csv.h" />
+    <ClInclude Include="DispatchRecv.h" />
+    <ClInclude Include="drawimage.h" />
+    <ClInclude Include="Drawing.h" />
+    <ClInclude Include="EngineMsg.h" />
+    <ClInclude Include="ExternalMenu.h" />
+    <ClInclude Include="GameAimBot.h" />
+    <ClInclude Include="GameBasics.h" />
+    <ClInclude Include="GameCFG.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameDef.h" />
+    <ClInclude Include="GameEsp.h" />
+    <ClInclude Include="GameKreedz.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameOffset.h" />
+    <ClInclude Include="GamePack.h" />
+    <ClInclude Include="GamePlayer.h" />
+    <ClInclude Include="GameScript.h" />
+    <ClInclude Include="GameSDK.h" />
+    <ClInclude Include="007Helper.h" />
+    <ClInclude Include="AhnCheat.h" />
+    <ClInclude Include="GameSpeed.h" />
+    <ClInclude Include="GameSurvival.h" />
+    <ClInclude Include="GameVar.h" />
+    <ClInclude Include="GameVXL.h" />
+    <ClInclude Include="GameWallHack.h" />
+    <ClInclude Include="GameZsht.h" />
+    <ClInclude Include="IGameClient.h" />
+    <ClInclude Include="IGameEngineMSG.h" />
+    <ClInclude Include="lua\lauxlib.h" />
+    <ClInclude Include="lua\lua.h" />
+    <ClInclude Include="lua\lua.hpp" />
+    <ClInclude Include="lua\luaconf.h" />
+    <ClInclude Include="lua\lualib.h" />
+    <ClInclude Include="nlohmann\fifo_map.hpp" />
+    <ClInclude Include="nlohmann\json.hpp" />
+    <ClInclude Include="PacketDef.h" />
+    <ClInclude Include="QAngle.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

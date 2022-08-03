@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{2bb654b6-af3e-4a6a-b52c-3e98dbfe5dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AhnLab">
+      <UniqueIdentifier>{41c55c82-bce6-4975-a1a1-15e59d37b4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AhnLab\AhnExport">
+      <UniqueIdentifier>{a730a2b9-2245-4d38-a748-3918ef1bc2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AhnLab\AhnProcess">
+      <UniqueIdentifier>{da8d5057-9110-40e6-91ef-94e05255d34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCheat">
+      <UniqueIdentifier>{c6592b17-cbe8-455c-9d2b-f7b06255c4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{b8e61711-8294-4829-b868-ec0d2192e34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameOffset">
+      <UniqueIdentifier>{69e11edd-9c28-4ec9-9d52-6e8720eca1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameClient">
+      <UniqueIdentifier>{31a76294-b932-4b7a-84b0-719f9b989dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GamePlayer">
+      <UniqueIdentifier>{18a6317c-07e6-4fa3-87aa-c46104b6d23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameBasics">
+      <UniqueIdentifier>{124f42ea-6e39-4dc0-a426-387b953b8d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameFont">
+      <UniqueIdentifier>{c254e4a0-3e42-49a3-9025-3ccf3c43bbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Tool">
+      <UniqueIdentifier>{e86432aa-1c97-4feb-bcac-28cc21ea7b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\EngineMsg">
+      <UniqueIdentifier>{d7650f7a-8625-44f9-8416-7b0672c33d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameMenu">
+      <UniqueIdentifier>{db4077e9-f7ca-452d-aa33-6b9feef0f4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameEsp">
+      <UniqueIdentifier>{2b1b9116-81cc-414d-9430-c1620c456ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameAimBot">
+      <UniqueIdentifier>{8e754fa4-a940-4cb7-9ae3-5e64d13d7f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameCFG">
+      <UniqueIdentifier>{10974e4e-be9b-4baa-9578-940e0df3ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameWallHack">
+      <UniqueIdentifier>{c7a34ec6-2cc1-4e7a-96dc-aeb3c93b8b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameKz">
+      <UniqueIdentifier>{ead19011-82b4-4488-8d48-bce04826e05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameSpeed">
+      <UniqueIdentifier>{ca3c0428-1df6-4e56-990d-27512a2793b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameScript">
+      <UniqueIdentifier>{ffa460e1-f013-44e3-afb1-999ad0bf22b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\DispatchRecv">
+      <UniqueIdentifier>{4c8691f4-7834-4b8e-a43a-7011d7c84dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GamePack">
+      <UniqueIdentifier>{8ee9e3c5-99fa-4789-9f6a-96401c5889f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameVxl">
+      <UniqueIdentifier>{8eeb9beb-a215-440a-a480-e3be8dd4bb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaScript">
+      <UniqueIdentifier>{2520e5eb-2fb7-49cb-914f-7cb5e8cb143c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaScript\Lua">
+      <UniqueIdentifier>{4cec91c4-da29-4517-be52-7a3d9cdf1140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SagaClient">
+      <UniqueIdentifier>{11bfbadf-8860-4ce4-b6b5-d728f125fd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameSurvival">
+      <UniqueIdentifier>{3124dfb9-000a-4540-bdec-ef297a5bc476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameZsht">
+      <UniqueIdentifier>{24b98dfa-9271-4a0f-8233-e60ff7d03352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameMp">
+      <UniqueIdentifier>{2b3d3aa4-4cbe-4e38-8f25-7f964213e95e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AhnExport.cpp">
+      <Filter>AhnLab\AhnExport</Filter>
+    </ClCompile>
+    <ClCompile Include="AhnProcess.cpp">
+      <Filter>AhnLab\AhnProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="AhnCheat.cpp">
+      <Filter>GameCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOffset.cpp">
+      <Filter>GameEngine\GameOffset</Filter>
+    </ClCompile>
+    <ClCompile Include="GameVar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>GameEngine\GameClient</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>GameEngine\GamePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBasics.cpp">
+      <Filter>GameEngine\GameBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>GameEngine\GameFont</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMsg.cpp">
+      <Filter>GameEngine\EngineMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>GameEngine\GameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameEngineMSG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEsp.cpp">
+      <Filter>GameEngine\GameEsp</Filter>
+    </ClCompile>
+    <ClCompile Include="cSprites.cpp">
+      <Filter>Util\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="csv.c">
+      <Filter>Util\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="QAngle.cpp">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCFG.cpp">
+      <Filter>GameEngine\GameCFG</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAimBot.cpp">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWallHack.cpp">
+      <Filter>GameEngine\GameWallHack</Filter>
+    </ClCompile>
+    <ClCompile Include="GameKreedz.cpp">
+      <Filter>GameEngine\GameKz</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSpeed.cpp">
+      <Filter>GameEngine\GameSpeed</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScript.cpp">
+      <Filter>GameEngine\GameScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchRecv.cpp">
+      <Filter>GameEngine\DispatchRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePack.cpp">
+      <Filter>GameEngine\GamePack</Filter>
+    </ClCompile>
+    <ClCompile Include="GameVXL.cpp">
+      <Filter>GameEngine\GameVxl</Filter>
+    </ClCompile>
+    <ClCompile Include="CLuaScript.cpp">
+      <Filter>LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSagaClient.cpp">
+      <Filter>SagaClient</Filter>
+    </ClCompile>
+    <ClCompile Include="drawimage.cpp">
+      <Filter>GameEngine\GameBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSurvival.cpp">
+      <Filter>GameEngine\GameSurvival</Filter>
+    </ClCompile>
+    <ClCompile Include="GameZsht.cpp">
+      <Filter>GameEngine\GameZsht</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMp.cpp">
+      <Filter>GameEngine\GameMp</Filter>
+    </ClCompile>
+    <ClCompile Include="CMpEntity.cpp">
+      <Filter>GameEngine\GameMp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="007Helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RCF007Interface.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AhnExport.h">
+      <Filter>AhnLab\AhnExport</Filter>
+    </ClInclude>
+    <ClInclude Include="AhnProcess.h">
+      <Filter>AhnLab\AhnProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="AhnCheat.h">
+      <Filter>GameCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOffset.h">
+      <Filter>GameEngine\GameOffset</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>GameEngine\GameClient</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>GameEngine\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBasics.h">
+      <Filter>GameEngine\GameBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>GameEngine\GameFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Util\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMsg.h">
+      <Filter>GameEngine\EngineMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>GameEngine\GameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEngineMSG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEsp.h">
+      <Filter>GameEngine\GameEsp</Filter>
+    </ClInclude>
+    <ClInclude Include="cSprites.h">
+      <Filter>Util\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="csv.h">
+      <Filter>Util\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.h">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\fifo_map.hpp">
+      <Filter>GameEngine\GameCFG</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>GameEngine\GameCFG</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCFG.h">
+      <Filter>GameEngine\GameCFG</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAimBot.h">
+      <Filter>GameEngine\GameAimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWallHack.h">
+      <Filter>GameEngine\GameWallHack</Filter>
+    </ClInclude>
+    <ClInclude Include="GameKreedz.h">
+      <Filter>GameEngine\GameKz</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSpeed.h">
+      <Filter>GameEngine\GameSpeed</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScript.h">
+      <Filter>GameEngine\GameScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchRecv.h">
+      <Filter>GameEngine\DispatchRecv</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDef.h">
+      <Filter>GameEngine\DispatchRecv</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePack.h">
+      <Filter>GameEngine\GamePack</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVXL.h">
+      <Filter>GameEngine\GameVxl</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>LuaScript\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>LuaScript\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>LuaScript\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>LuaScript\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>LuaScript\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="CLuaScript.h">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSagaClient.h">
+      <Filter>SagaClient</Filter>
+    </ClInclude>
+    <ClInclude Include="drawimage.h">
+      <Filter>GameEngine\GameBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSurvival.h">
+      <Filter>GameEngine\GameSurvival</Filter>
+    </ClInclude>
+    <ClInclude Include="GameZsht.h">
+      <Filter>GameEngine\GameZsht</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMp.h">
+      <Filter>GameEngine\GameMp</Filter>
+    </ClInclude>
+    <ClInclude Include="CMpEntity.h">
+      <Filter>GameEngine\GameMp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

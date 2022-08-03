@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{58ee14fb-2501-4462-9cf0-fd21842747e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeYun">
+      <UniqueIdentifier>{29a5b534-ff14-4bc7-b5ee-0fa479f2fcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="007RCFServer">
+      <UniqueIdentifier>{1a104ff8-764f-41f7-83c7-0b39b39b59b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{bc4df9d4-319e-4ecc-88e3-0675dc33c339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LCUI_Lanuncher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LCUICommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LCUIGui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LCUIStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="FyAuthorization.h">
+      <Filter>FreeYun</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RCF\RCF007Interface.hpp">
+      <Filter>007RCFServer</Filter>
+    </ClInclude>
+    <ClInclude Include="RCFServer.h">
+      <Filter>007RCFServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LCUI_Lanuncher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LCUIGui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FyAuthorization.cpp">
+      <Filter>FreeYun</Filter>
+    </ClCompile>
+    <ClCompile Include="RCFServer.cpp">
+      <Filter>007RCFServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LCUI_Lanuncher.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="007Launcher.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

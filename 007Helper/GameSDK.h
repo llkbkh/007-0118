@@ -1,0 +1,70 @@
+#pragma once
+
+#include "libs\glfw\include\GLFW\glfw3.h"
+#include "ValveSDK/engine/wrect.h"
+#include "ValveSDK/engine/cl_dll.h"
+#include "ValveSDK/engine/r_studioint.h"
+#include "ValveSDK/engine/cl_entity.h"
+#include "ValveSDK/misc/com_model.h"
+#include "ValveSDK/engine/triangleapi.h"
+#include "ValveSDK/engine/pmtrace.h"
+#include "ValveSDK/engine/pm_defs.h"
+#include "ValveSDK/engine/pm_info.h"
+#include "ValveSDK/common/ref_params.h"
+#include "ValveSDK/common/studio_event.h"
+#include "ValveSDK/common/net_api.h"
+#include "ValveSDK/common/r_efx.h"
+#include "ValveSDK/engine/cvardef.h"
+#include "ValveSDK/engine/util_vector.h"
+#include "ValveSDK/misc/parsemsg.h"
+#include "ValveSDK/engine/studio.h"
+#include "ValveSDK/engine/event_args.h"
+#include "ValveSDK/engine/event_flags.h"
+#include "ValveSDK/common/event_api.h"
+#include "ValveSDK/common/screenfade.h"
+#include "ValveSDK/engine/keydefs.h"
+#include "ValveSDK/common/engine_launcher_api.h"
+#include "ValveSDK\common\interface.h"
+#include "ValveSDK\common\wrect.h"
+#include "ValveSDK\engine\cl_dll.h"
+#include "ValveSDK\engine\cdll_int.h"
+#include "ValveSDK\common\r_studioint.h"
+#include "ValveSDK\common\com_model.h"
+#include "ValveSDK\common\cl_entity.h"
+#include "ValveSDK\common\ref_params.h"
+#include "ValveSDK\pm_shared\pm_defs.h"
+#include "ValveSDK\pm_shared\pm_movevars.h"
+#include "ValveSDK\engine\studio.h"
+#include "ValveSDK\misc\parsemsg.h"
+#include "ValveSDK\common\cvardef.h"
+#include "ValveSDK\common\triangleapi.h"
+#include "ValveSDK\common\pmtrace.h"
+#include "ValveSDK\common\event_api.h"
+#include "ValveSDK\common\r_efx.h"
+#include "ValveSDK\common\entity_types.h"
+#include "ValveSDK\common\screenfade.h"
+#include "ValveSDK\common\net_api.h"
+#include "ValveSDK\VGUI\VGUI_Frame.h"
+#include "ValveSDK\VGUI\VGUI_Panel.h"
+#include "ValveSDK\GameUI\IVGuiModuleLoader.h"
+#include "ValveSDK\GameUI\IRunGameEngine.h"
+#include "ValveSDK\GameUI\IGameUI.h"
+#include "ValveSDK\GameUI\IGameConsole.h"
+#include "ValveSDK\VGUI2\IPanel.h"
+#include "ValveSDK\VGUI2\IHTML.h"
+#include "ValveSDK\VGUI2\IPanel.h"
+#include "ValveSDK\VGUI2\ISurface.h"
+#include "ValveSDK\VGUI2\IEngineVGui.h"
+#include "ValveSDK/engine/eiface.h"
+#include "ValveSDK/Interface/IFileSystem.h"
+
+#include <gl/GLU.h>
+//#pragma comment (lib,"Algorithm.lib")
+#pragma comment ( lib,"OpenGL32.lib")
+
+// - 未知好像是VS2010的静态库
+#pragma comment ( lib,"glfw3.lib")
+
+#pragma comment ( lib,"glu32.lib")
+
+//#pragma comment ( lib,"gdiplus.lib")
